@@ -1,11 +1,10 @@
 ## Activity-tracker <br />
-Follows [running application url](https://activity-app123.herokuapp.com/).
+Check [running application url](https://activity-app123.herokuapp.com/).
 
 ## Overview
 
 This is an activity-tracker application, as a test project which is build in React.js using ES6, Redux, Redux-saga, and React-Hook and CSS. It will Help you to stay productive by following best practices. Follows [Standard Javascript style guide](https://github.com/eslint/eslint).
 
-### Features
                                 
 ## Summary<br />   
 
