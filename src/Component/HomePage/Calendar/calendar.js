@@ -9,7 +9,7 @@ import "react-datepicker/dist/react-datepicker.css";
 
 const Calendar = (props) => {
     
-    console.log(props,'calendar')
+    
 
     return (
         <div  className = "date-picker-customs"> 

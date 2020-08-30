@@ -71,7 +71,6 @@ class HomePage extends  Component {
 
 	handleChangeDate = (e, data) => {
 
-		console.log(e, data, 'applieddate', moment(e).format("MMM Do YY"), moment(data[0].start_time).format("MMM Do YY"))
 
 		let activityList = data.filter((item) => moment(item.start_time).format("MMM Do YY") === moment(e).format("MMM Do YY"))
 		this.setState({activityList: activityList, startDate: moment(e), isDatePickerOpen: !this.state.isDatePickerOpen})
@@ -91,7 +90,6 @@ class HomePage extends  Component {
 
 
     render(){
-        console.log(this.state, 'activitystate', this.state.isOpenActivityModal,this.props)
         return (
             <div>
                <div>

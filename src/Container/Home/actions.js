@@ -5,7 +5,6 @@ import {
 
 
 export const getAllUserData = () => {
-    console.log('helloo--')
 
     return {
         type: GET_ALL_USER_DATA

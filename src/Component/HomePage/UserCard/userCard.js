@@ -21,7 +21,6 @@ const useStyles = makeStyles({
 
 const UserList = (props) => {
   const classes = useStyles();
-  console.log(props, 'name--')
 
   return (
     <Card className={classes.root} >

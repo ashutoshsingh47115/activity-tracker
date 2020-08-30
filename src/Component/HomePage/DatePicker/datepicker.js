@@ -17,7 +17,6 @@ const useStyles = makeStyles((theme) => ({
 
 export default function DateAndTimePickers(props) {
   const classes = useStyles();
-  console.log(props.time, 'time', new Date(props.time + " " + "Asia/Kolkata").toUTCString())
 
   return (
     <form className={classes.container} noValidate>

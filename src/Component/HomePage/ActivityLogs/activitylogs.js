@@ -6,7 +6,6 @@ import Calendar from '../Calendar/calendar'
 
 const ActivityLogs = (props) => {
 
-    console.log(props, 'activitylogs')
 
 
     return (
