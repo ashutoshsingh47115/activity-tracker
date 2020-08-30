@@ -13,19 +13,16 @@ const Calendar = (props) => {
 
     return (
         <div  className = "date-picker-customs"> 
-        {/* <div className = "Date-picker-csss" ><Today style={{ marginTop:'2px', marginLeft :'-160px',color:"#006ae5"}}/><div className = "date-css">{moment(this.props.value).format("ddd, D MMM YYYY")}</div></div> */}
+       
         <DatePicker
             
-            // customInput = {<ArrowDropDown style= {{marginTop:"3px", marginLeft:'-37px', cursor:'pointer', color: 'darkgray'}}/>} 
+          
             onChange ={props.onChange}  
             selected = {props.startdate._d}   
             dateFormat="LLLL" 
             open = {props.isDatePickerOpen}
             onInputClick = {props.handleClick}
-           
-            // timeFormat="HH:mm"
-            // timeIntervals={30}
-            // timeCaption="time"
+
             dateFormat="MMMM d, yyyy h:mm aa"
         />
     </div>
