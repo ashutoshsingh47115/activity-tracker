@@ -1,5 +1,5 @@
 #Activity-tracker
-
+Follows [running application url](https://activity-app123.herokuapp.com/).
 
 ## Overview
 
@@ -7,12 +7,13 @@ This is an activity-tracker application, as a test project which is build in Rea
 
 ### Features
 
-| Feature                                | Summary:                                                                                                                                                 . On Dashboard all the users will be there
+| Feature                                
+ Summary:                                                                                                                                                                        . On Dashboard users will be there
 . On clicking user profile a modal will display with their all activity logs.
 . User can see their activity by clicking on calender date
 . On dashboard user can be searched with their name in search bar
-                                                                                                    |
-|----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+                                                                                                    
+|----------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------
 | ES6 via Babel                   | ES6 support using [Babel](https://babeljs.io/).  | |
 | Code Linting               | JavaScript code linting is done using [ESLint](http://eslint.org) - a pluggable linter tool for identifying and reporting on patterns in JavaScript.|                                                                                        
 
