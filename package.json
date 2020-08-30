@@ -2,6 +2,8 @@
   "name": "activity-tracker",
   "version": "0.1.0",
   "private": true,
+  "homepage": "/",
+	"main": "index.js",
   "engines": {
     "node": "10.16.3",
     "npm": "6.10.2"
