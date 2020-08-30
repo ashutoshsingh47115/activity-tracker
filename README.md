@@ -1,4 +1,4 @@
-#Activity-tracker
+## Activity-tracker <br />
 Follows [running application url](https://activity-app123.herokuapp.com/).
 
 ## Overview
@@ -7,7 +7,9 @@ This is an activity-tracker application, as a test project which is build in Rea
 
 ### Features
                                 
-##Summary:  <br />                                                                                                                                                                    . On Dashboard users will be there <br />
+## Summary<br />   
+
+     . On Dashboard users will be there <br />  
      . On clicking user profile a modal will display with their all activity logs. <br />
      . User can see their activity by clicking on calender date. <br />
      . On dashboard user can be searched with their name in search bar <br />
