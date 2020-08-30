@@ -28,7 +28,7 @@ const UserList = (props) => {
         <CardMedia
           className={classes.media}
           image={ConnectIcon}
-          title="Contemplative Reptile"
+          title="Activity Logs"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2" >
