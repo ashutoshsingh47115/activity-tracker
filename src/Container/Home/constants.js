@@ -1,0 +1,2 @@
+export const GET_ALL_USER_DATA = 'home/GET_ALL_USER_DATA'
+export const GET_ALL_USER_DATA_SUCCESS = 'home/GET_ALL_USER_DATA_SUCCESS'

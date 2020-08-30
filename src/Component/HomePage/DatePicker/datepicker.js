@@ -1,0 +1,36 @@
+import React from 'react';
+import { makeStyles } from '@material-ui/core/styles';
+import TextField from '@material-ui/core/TextField';
+import moment from 'moment'
+
+const useStyles = makeStyles((theme) => ({
+  container: {
+    display: 'flex',
+    flexWrap: 'wrap',
+  },
+  textField: {
+    marginLeft: theme.spacing(1),
+    marginRight: theme.spacing(1),
+    width: 200,
+  },
+}));
+
+export default function DateAndTimePickers(props) {
+  const classes = useStyles();
+  console.log(props.time, 'time', new Date(props.time + " " + "Asia/Kolkata").toUTCString())
+
+  return (
+    <form className={classes.container} noValidate>
+      <TextField
+        id="datetime-local"
+        label={props.label}
+        type="datetime-utc"
+        value={props.time}
+        className={classes.textField}
+        InputLabelProps={{
+          shrink: true,
+        }}
+      />
+    </form>
+  );
+}

@@ -1,0 +1,9 @@
+.userlist-main{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 8rem;
+    flex-flow: wrap;
+}
+.usercard {
+ margin-bottom: 4rem;
+}
